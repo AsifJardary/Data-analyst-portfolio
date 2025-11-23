@@ -477,7 +477,7 @@ WHERE description ILIKE '%love%'
 ```
 
 
-?? Findings & Conclusion
+# Findings & Conclusion
 * Content Variety:
 Netflix hosts a broad and diverse library of movies and TV shows, spanning multiple genres, themes, and formats. This variety reflects Netflix’s strategy of appealing to a global and multi-demographic audience.
 * Audience Targeting Through Ratings:
@@ -487,8 +487,9 @@ Identifying the top content-producing countries and analyzing India’s year-ove
 * Content Classification by Themes:
 Categorizing descriptions using keyword analysis (e.g., violence, crime, romance) enables a deeper understanding of thematic trends across the catalog. This helps in recognizing dominant content themes and user preference indicators.
 
-? Overall Conclusion
+# Overall Conclusion
 This SQL-based analysis provides a well-rounded understanding of Netflix’s catalog composition, trends, and distribution. The insights can support strategic decisions related to content acquisition, content development, audience targeting, and regional expansion. It also highlights how data-driven analysis can be used to optimize streaming platform strategies.
+
 
 
 
