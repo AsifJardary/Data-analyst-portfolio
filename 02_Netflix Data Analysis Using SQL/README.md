@@ -1,29 +1,29 @@
-?? Netflix Movies & TV Shows ó SQL Data Analysis Project
+# Netflix Movies & TV Shows ‚Äî SQL Data Analysis Project
 
-![]()
+![](https://github.com/AsifJardary/Data-analyst-portfolio/blob/main/02_Netflix%20Data%20Analysis%20Using%20SQL/N_logo.jpeg)
 
-?? Overview
-This project showcases a complete end-to-end SQL analysis of Netflixís movie and TV show catalog. Using real-world data from Kaggle, the goal is to uncover insights into Netflixís content distribution, trends, countries of production, popular ratings, genres, and more.
+# Overview
+This project showcases a complete end-to-end SQL analysis of Netflix‚Äôs movie and TV show catalog. Using real-world data from Kaggle, the goal is to uncover insights into Netflix‚Äôs content distribution, trends, countries of production, popular ratings, genres, and more.
 The analysis answers important business and analytical questions, making this project ideal for SQL portfolio building, interviews, and data exploration practice.
 
-?? Project Objectives
-The project focuses on exploring Netflixís catalog to uncover patterns across multiple dimensions, including:
-* Content Type Distribution ñ Compare how many Movies vs. TV Shows are available.
-* Rating Analysis ñ Find the most common rating for each content type.
-* Release Trends Over Time ñ Identify which years had the most content releases.
-* Country Insights ñ See which countries produce the most Netflix titles.
-* Duration Analysis ñ Explore longest movies and TV shows with many seasons.
-* Genre & Category Exploration ñ Deep dive into genre combinations and descriptions.
-* Keyword Classification ñ Categorize content using text-based labels (e.g., violence, crime, romance).
+# Project Objectives
+The project focuses on exploring Netflix‚Äôs catalog to uncover patterns across multiple dimensions, including:
+* Content Type Distribution ‚Äì Compare how many Movies vs. TV Shows are available.
+* Rating Analysis ‚Äì Find the most common rating for each content type.
+* Release Trends Over Time ‚Äì Identify which years had the most content releases.
+* Country Insights ‚Äì See which countries produce the most Netflix titles.
+* Duration Analysis ‚Äì Explore longest movies and TV shows with many seasons.
+* Genre & Category Exploration ‚Äì Deep dive into genre combinations and descriptions.
+* Keyword Classification ‚Äì Categorize content using text-based labels (e.g., violence, crime, romance).
 This analysis demonstrates practical SQL skills such as CTEs, window functions, text functions, unnesting array-like fields, date transformations, conditional aggregation, and ranking.
 
-?? Dataset Information
+# Dataset Information
 This project uses a publicly available dataset from Kaggle, containing all Netflix movies and TV shows listed at the time of collection.
 ?? Dataset Source
 Movies & TV Shows Dataset (Kaggle)
 https://www.kaggle.com/datasets/shivamb/netflix-shows
 
-?? Dataset Includes
+# Dataset Includes
 * Titles
 * Cast and director details
 * Content type (Movie or TV Show)
@@ -373,7 +373,7 @@ FROM netflix
 WHERE director LIKE '%,%';
 ```
 
-### 23. Count Movies Released Between 1990ñ2000 Grouped by Rating
+### 23. Count Movies Released Between 1990‚Äì2000 Grouped by Rating
 
 ```sql
 SELECT 
@@ -464,7 +464,7 @@ ORDER BY total DESC
 LIMIT 5;
 ```
 
-### 30. List Titles Whose Description Mentions Both ìLoveî AND ìWarî
+### 30. List Titles Whose Description Mentions Both ‚ÄúLove‚Äù AND ‚ÄúWar‚Äù
 
 ```sql
 SELECT 
@@ -479,16 +479,17 @@ WHERE description ILIKE '%love%'
 
 ?? Findings & Conclusion
 * Content Variety:
-Netflix hosts a broad and diverse library of movies and TV shows, spanning multiple genres, themes, and formats. This variety reflects Netflixís strategy of appealing to a global and multi-demographic audience.
+Netflix hosts a broad and diverse library of movies and TV shows, spanning multiple genres, themes, and formats. This variety reflects Netflix‚Äôs strategy of appealing to a global and multi-demographic audience.
 * Audience Targeting Through Ratings:
-The analysis of ratings reveals clear patterns in how content is classified, providing insight into Netflixís primary audience segments. Understanding these ratings helps evaluate the platformís focus on family-friendly, teen, or mature content.
+The analysis of ratings reveals clear patterns in how content is classified, providing insight into Netflix‚Äôs primary audience segments. Understanding these ratings helps evaluate the platform‚Äôs focus on family-friendly, teen, or mature content.
 * Geographical Trends:
-Identifying the top content-producing countries and analyzing Indiaís year-over-year contribution highlights regional production strengths. These findings underline how global markets influence Netflixís content acquisition and creation decisions.
+Identifying the top content-producing countries and analyzing India‚Äôs year-over-year contribution highlights regional production strengths. These findings underline how global markets influence Netflix‚Äôs content acquisition and creation decisions.
 * Content Classification by Themes:
 Categorizing descriptions using keyword analysis (e.g., violence, crime, romance) enables a deeper understanding of thematic trends across the catalog. This helps in recognizing dominant content themes and user preference indicators.
 
 ? Overall Conclusion
-This SQL-based analysis provides a well-rounded understanding of Netflixís catalog composition, trends, and distribution. The insights can support strategic decisions related to content acquisition, content development, audience targeting, and regional expansion. It also highlights how data-driven analysis can be used to optimize streaming platform strategies.
+This SQL-based analysis provides a well-rounded understanding of Netflix‚Äôs catalog composition, trends, and distribution. The insights can support strategic decisions related to content acquisition, content development, audience targeting, and regional expansion. It also highlights how data-driven analysis can be used to optimize streaming platform strategies.
+
 
 
 
